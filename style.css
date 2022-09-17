@@ -17,12 +17,49 @@ body {
   margin: 100px auto;
 }
 
+@media (max-width:768px) {
+  .wrapper {
+    width: 340px;
+  }
+}
+
 #topContainer {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 .container {
   margin-top: 1.4rem;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+hr {
+  width: 50%;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}
+.footer img {
+  width: 14px;
+  margin-bottom: -1px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #8990ec;
 }
 
 .title {
